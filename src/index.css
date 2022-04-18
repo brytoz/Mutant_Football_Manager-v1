@@ -1,0 +1,135 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+/* 'Oxanium', cursive; */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Space Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dexvisit {
+  background-image: url("./assets/dexvisit.png");
+  background-color: #111111;
+  /* height: 500px;   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#marketplaces {
+  background-image: url("./assets/marketplace.png");
+  background-color: #111111;
+  /* height: 500px;   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#nftt {
+  background-image: url("./assets/nftback.png");
+  background-color: #111111;
+  /* height: 500px;   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bank {
+  background-image: url("./assets/bank.png");
+  background-color: #111111;
+  /* height: 500px;   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#lockers {
+  background-image: url("./assets/locker.png");
+  background-color: #111111;
+  /* height: 500px;   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#stadiums {
+  background-image: url("./assets/stadium.png");
+  background-color: #111111;
+  /* height: 500px;   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#villagess {
+  background-image: url("./assets/villages.png");
+  background-color: #111111;
+  /* height: 500px;   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#coachs {
+  background-image: url("./assets/coach.png");
+  background-color: #111111;
+  /* height: 500px;   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#landin {
+  background-image: url("./assets/landin.png");
+  background-color: #111111;
+  /* height: 500px;   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#error {
+  background-image: url("./assets/404.png");
+  background-color: #111111;
+  /* height: 500px;   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#backdex {
+  background-image: url("./assets/backdex.png");
+  background-color: #111111;
+  /* height: 500px;   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+#grass {
+  background-image: url("./assets/grasvs.png");
+  background-color: #111111;
+  /* height: 500px;   */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  #reduce {
+    display: none;
+  }
+}
